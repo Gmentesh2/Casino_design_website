@@ -1,0 +1,291 @@
+/* Header responsive */
+
+@media screen and (max-width: 1024px) {
+  .main-logo {
+    height: 36px;
+  }
+  .header-content h2 {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+  .header-content h4 {
+    font-size: 1.2rem;
+    line-height: 24px;
+  }
+  .header-content button {
+    margin-top: 32px;
+  }
+  .header-content p {
+    margin: 32px 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    min-height: 1032px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  header {
+    background-image: url("../assets/background-images/background-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    min-height: 100vh;
+  }
+}
+@media screen and (max-width: 610px) {
+  .header-content h2 {
+    font-size: 1.5rem;
+    line-height: 32px;
+  }
+  .header-content h4 {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+  .header-content button {
+    margin-top: 24px;
+    width: 200px;
+    padding: 14px 24px;
+    font-size: 0.875rem;
+    line-height: 20px;
+    height: 48px;
+  }
+  .header-content p {
+    margin: 24px 40px;
+  }
+  .header-content h4:first-of-type {
+    margin-top: 8px;
+  }
+}
+
+/* Quick steps responsive*/
+@media screen and (max-width: 1150px) {
+  .quick-steps-content {
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .step img {
+    width: 48px;
+  }
+  .step {
+    gap: 12px;
+  }
+  .step h5 {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .quickAndEasy .hiddenTextQuick {
+    display: none;
+  }
+
+  .quickAndEasy::after {
+    content: "Quick & Easy";
+    color: #a7a9b0;
+    font-size: 12px;
+    line-height: 18px;
+    display: block;
+  }
+  .Secure .hiddenTextSecure {
+    display: none;
+  }
+
+  .Secure::after {
+    content: "Safe & Secure";
+    color: #a7a9b0;
+    font-size: 12px;
+    line-height: 18px;
+    display: block;
+  }
+  .startWinning .hiddenTextWinning {
+    display: none;
+  }
+  .startWinning::after {
+    content: "Start Winning";
+    color: #a7a9b0;
+    font-size: 12px;
+    line-height: 18px;
+    display: block;
+  }
+}
+@media screen and (max-width: 610px) {
+  .quick-steps-content {
+    flex-direction: column;
+    padding: 32px 0 48px;
+    gap: 16px;
+  }
+  .step {
+    flex-direction: column;
+    text-align: center;
+  }
+  .arrow-left {
+    transform: rotate(90deg);
+  }
+  .arrow-left:hover {
+    transform: rotate(90deg) translateX(2px);
+  }
+  .step img {
+    width: 56px;
+  }
+  .step h5 {
+    font-size: 1.25rem;
+    line-height: 24px;
+  }
+  .quickAndEasy .hiddenTextQuick,
+  .Secure .hiddenTextSecure,
+  .startWinning .hiddenTextWinning {
+    display: inline !important;
+  }
+  .quickAndEasy::after,
+  .Secure::after,
+  .startWinning::after {
+    content: "";
+    display: none !important;
+  }
+}
+/* Your gaming destination responsive */
+@media screen and (max-width: 1024px) {
+  .card-btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section-header h4 {
+    font-size: 1.25rem;
+    line-height: 24px;
+    margin: 0 0 20px 0;
+  }
+  .gaming-section {
+    margin-top: 26px;
+  }
+  .wrapper {
+    padding: 0 14px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .section-header h4 {
+    font-size: 1rem;
+    line-height: 20px;
+    margin: 0 0 12px 0;
+  }
+  .gaming-section {
+    margin-top: 0px;
+  }
+  .card-container {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  .wrapper {
+    padding: 0 16px;
+  }
+}
+/* Why choose us responsive */
+@media screen and (max-width: 1300px) {
+  .feature-card {
+    width: 364px;
+
+    text-align: center;
+  }
+  .feature {
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .feature-card {
+    max-width: 364px;
+    width: 100%;
+  }
+  .feature {
+    gap: 9px;
+  }
+  .features-row {
+    gap: 32px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .feature {
+    gap: 9px;
+    flex-direction: column;
+  }
+  .features-row {
+    gap: 24px;
+  }
+}
+/* Start your journey responsive */
+
+@media screen and (max-width: 768px) {
+  .start-journey-text p {
+    font-size: 0.75rem;
+    line-height: 18px;
+  }
+  .start-journey-text h5 {
+    font-size: 1rem;
+    line-height: 20px;
+    margin: 0 0 12px 0;
+  }
+  .start-journey-content {
+    gap: 32px;
+  }
+  .start-journey {
+    margin-top: 32px;
+  }
+}
+
+/* Footer responsive */
+
+@media screen and (max-width: 1024px) {
+  footer {
+    margin-top: 56px;
+  }
+  .partners-info,
+  .partners-info-clubs {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .partners {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+  }
+  .partners-row-clubs {
+    gap: 24px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .partners-info img {
+    width: 32px;
+  }
+  .partners-info-clubs img {
+    width: 32px !important;
+  }
+  .partners-clubs-title {
+    display: none;
+  }
+  summary {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .links {
+    flex-direction: column;
+  }
+  .footer-text-div .footer-text {
+    text-align: center;
+  }
+  .footer-lower-content {
+    padding: 24px 16px 40px 16px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .partners-row-clubs {
+    gap: 10px;
+  }
+}
